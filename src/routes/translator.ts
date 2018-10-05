@@ -9,17 +9,16 @@ export class Translator {
     
     public routes(app): void {        
        
-        
-       // let person = {"name":"Kat"}
-        //let per2 = JSON.stringify(person)
-
+      
         app.route('/getdata/:id')
         .get((req:Request, res: Response) => {
            let id = req.params.id;
+           var userbody = req.body;
+
            var xml = parser.jsonToXml(ussd);
            console.log(xml);
-           res.status(200).send(ussd);
-           
+           res.status(200).send(userbody);
+
         })
     }
 
