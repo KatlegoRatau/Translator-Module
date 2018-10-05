@@ -1,19 +1,28 @@
-import * as express from "express";
+
+import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import { Translator } from './routes/translator';
-
 class App {
 
     public app: express.Application;
-    public pokeRoutes: Translator = new Translator();
-    
+    public transRoutes: Translator = new Translator();
+
     constructor() {
         this.app = express();
-        this.config();        
-        this.pokeRoutes.routes(this.app);     
+        this.config();
+        this.transRoutes.routes(this.app); 
     }
-    private config(): void{
+
+    private config(): void {
+       
         this.app.use(bodyParser.json());
-        this.app.use(bodyParser.urlencoded({ extended: false }));
+     
+        this.app.use(bodyParser.urlencoded({
+            extended: false
+        }));
+
     }
 }
+
+export default new App().app;
+
