@@ -10,7 +10,7 @@ export class Translator {
             res.status(200).send("Data");
         })  
         
-        app.route('/pokemons/:id')
+        app.route('/getdata/:id')
         .get((req:Request, res: Response) => {
            let id = req.params.id;
            res.status(200).send("Im an ID");
