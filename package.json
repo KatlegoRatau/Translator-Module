@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "ts-node ./src/server.ts",        
+    "dev": "ts-node ./src/server.ts",
     "start": "nodemon ./dist/server.js",
     "prod": "npm run build && npm run start"
   },
@@ -24,6 +24,7 @@
     "@types/node": "^10.11.4",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "json-xml-parser": "^1.0.5",
     "nodemon": "^1.18.4",
     "ts-node": "^7.0.1",
     "typescript": "^3.1.1"
