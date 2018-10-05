@@ -1,0 +1,14 @@
+{
+    "type": "action",
+    "TIMESTAMP": "03-OCT-2018 19:02:54",
+    "MSISDN": "182205277",
+    "SERVICE": "balance",
+    "TERMINATION_CODE": "0",
+    "NODE": "ge14101",
+    "ACCESS_CODE": "*141#",
+    "RESPONSE": "Balance Summary:\nAirtime:R3.24\nSMS:0\nData:10.00 MB",
+    "STATE": "200"
+
+
+
+}
