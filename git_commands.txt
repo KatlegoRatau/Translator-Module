@@ -1,0 +1,75 @@
+   84  git --version
+   94  git init
+   96  git init
+   97  git add .
+   98  git commit -m "ussd commit"
+  100  git push heroku master
+  103  git commit -m "coomit 2"
+  104  git commit -m "coomit 2"
+  105  git init
+  106  git add .
+  107  git commit -m "commit 2"
+  108  git push heroku master
+  112  git remote add origin https://github.com/KatlegoRatau/USSD.git
+  113  git push -u origin master
+  115  rd .git /S/Q
+  116  rmdir .git /S/Q
+  117  git init
+  118  git add .
+  119  git commit -m 'USSD first commit'
+  170  git init
+  171  git add .
+  172  git init
+  173  git add .
+  174  git commit -m 'XML and JSON Conversion'
+  180  git init
+  181  git add .
+  182  git commit -m 'USSD XML and JSON'
+  183  git remote add origin https://github.com/KatlegoRatau/JSON-XML.git
+  184  git push -u origin master
+  278  git clone https://KatlegoRatau@bitbucket.org/johnkyony/translator_module.git
+  324  git pull origin master
+  325  git status
+  326  git add --all 
+  327  git commit -m 'Initial commit'
+  328  git pull origin master
+  336  git status
+  337  git add --all
+  338  git commit -m 'update app.ts'
+  339  git push origin master
+  346  git status
+  347  git pull origin master
+  351  git status
+  353  git add --all
+  354  git status
+  356  git commit -m 'updated package.json'
+  358  git push origin master
+  371  git status
+  372  git add
+  373  git --add
+  375  git --add
+  376  git --add .
+  377  git --add.
+  379  git add .
+  380  git status
+  382  git commit -m 'changed translator.js'
+  384  git push origin master
+  385  git push origin master
+  386  git status
+  387  git status
+  389  git add .
+  390  git status
+  391  git commit -m 'translator added Json conversion'
+  392  git push origin master
+  401  git --add .
+  403  git add .
+  404  git commit -m 'updated translator.js'
+  406  git commit -m 'translator.ts'
+  408  git push origin master
+  409  git status
+  410  git add .
+  411  git add .
+  412  git commit -m 'translator.ts updated'
+  413  git push master origin
+  415  git push origin master
+  419  history | grep git >> git_commands.txt
